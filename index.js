@@ -13,7 +13,7 @@ const HumanitasSchema = new mongoose.Schema({
   occupation: String
 });
 
-// Model dla schematu 'Humanitas'
+// Model dla schematu 'Humanitasss zmiana'
 const Humanitas = mongoose.model('Humanitas', HumanitasSchema);
 
 // Endpoint GET, który sprawdza zawartość kolekcji 'humanitas'
