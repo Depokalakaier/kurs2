@@ -16,7 +16,7 @@ const HumanitasSchema = new mongoose.Schema({
 // Model dla schematu 'Humanitasss zmiana'
 const Humanitas = mongoose.model('Humanitas', HumanitasSchema);
 
-// Endpoint GET, który sprawdza zawartość kolekcji 'humanitasss'
+// Endpoint GET, który sprawdza zawartość kolekcji 'humanitassss'
 app.get('/test1', async (req, res) => {
   try {
     const result = await Humanitas.find();
