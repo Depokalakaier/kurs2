@@ -21,7 +21,7 @@ app.get('/test1', async (req, res) => {
   try {
     const result = await Humanitas.find();
     if (result.length > 0) {
-      res.json(result);  // Wyświetla dokumenty, jeśli kolekcja nie jest pustaa
+      res.json(result);  // Wyświetla dokumenty, jeśli kolekcja nie jest pustaaA
     } else {
       res.send('No documents found in the humanitas collection');
     }
